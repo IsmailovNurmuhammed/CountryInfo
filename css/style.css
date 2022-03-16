@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.3em;
+  color: #000;
+  background-color: #fff;
+}
+a{
+  text-decoration: none;
+}
+.conteiner {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url(../img/main-bac.png) no-repeat;
+  background-size: cover;
+}
+.info {
+  color: #fff;
+}
+.info h1{
+  font-size: 50px;
+  text-align: center;
+}
+.input__row {
+  /* background: url(../img/input.png); */
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+.input {
+  width: 100vh;
+  opacity: 80%;
+  margin:  0  auto;
+  background-color: #ccc;
+  border:  none;
+}
+.input__search {
+  background-color: rgb(13, 83, 175);
+  color: #fff;
+  line-height: 50px;
+  padding:  0 10px;
+  outline: none;
+  border: none;
+  flex-wrap: wrap;
+}

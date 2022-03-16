@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Информация о странах</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/XMLHTTP.js"></script>
+</head>
+<body>
+
+    <div class="block">
+        <div class="conteiner">
+            <div class="info">
+                <h1>Информация о странах</h1>
+                <div class="input__row">
+                    <input type="text" class="input">
+                    <button class="input__search" href = "#">Search</button>
+                </div>
+                <p id="name">Name: <span id="country_name"></span></p>
+                <p id="region">Region: <span id="country_region"></span></p>
+                <p id="subregion">Subregion: <span id="country_subregion"></span></p>
+                <p id="capital">Capita: <span id="country_capital"></span></p>
+                <div id="flag">Flag: <img id="country_flag"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
